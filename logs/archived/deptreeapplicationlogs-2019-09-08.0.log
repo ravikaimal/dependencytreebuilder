@@ -1,0 +1,67 @@
+2019-09-08 17:27:26,899 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 2132 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-09-08 17:27:26,903 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-08 17:27:27,933 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-09-08 17:27:27,947 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-08 17:27:27,956 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-09-08 17:27:27,957 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-08 17:27:28,059 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-09-08 17:27:28,059 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1110 ms
+2019-09-08 17:27:28,257 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-08 17:27:28,405 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-08 17:27:28,436 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-09-08 17:27:28,440 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.991 seconds (JVM running for 2.532)
+2019-09-08 17:27:30,898 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-08 17:27:35,803 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 2157 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-09-08 17:27:35,807 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-08 17:27:36,575 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-09-08 17:27:36,588 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-08 17:27:36,595 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-09-08 17:27:36,596 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-08 17:27:36,659 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-09-08 17:27:36,659 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 816 ms
+2019-09-08 17:27:36,870 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-08 17:27:37,017 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-08 17:27:37,054 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-09-08 17:27:37,059 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.899 seconds (JVM running for 3.11)
+2019-09-08 17:27:42,814 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-08 17:27:42,814 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-09-08 17:27:42,821 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 7 ms
+2019-09-08 17:27:42,873 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-09-08 17:31:02,782 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-5] Entry: handleInputFile
+2019-09-08 17:32:19,475 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-6] Entry: handleInputFile
+2019-09-08 17:32:31,243 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-08 18:39:47,271 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 15134 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-09-08 18:39:47,276 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-08 18:39:48,216 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-09-08 18:39:48,231 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-08 18:39:48,241 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-09-08 18:39:48,241 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-08 18:39:48,331 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-09-08 18:39:48,331 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1011 ms
+2019-09-08 18:39:48,538 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-08 18:39:48,671 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-08 18:39:48,700 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-09-08 18:39:48,704 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.965 seconds (JVM running for 2.535)
+2019-09-08 18:40:13,393 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-08 18:40:13,394 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-09-08 18:40:13,400 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 6 ms
+2019-09-08 18:40:13,445 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-09-08 18:42:06,349 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-3] Entry: handleInputFile
+2019-09-08 18:45:10,106 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-08 18:45:14,620 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 16156 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-09-08 18:45:14,624 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-08 18:45:15,444 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-09-08 18:45:15,454 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-08 18:45:15,462 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-09-08 18:45:15,462 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-08 18:45:15,521 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-09-08 18:45:15,522 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 856 ms
+2019-09-08 18:45:15,689 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-08 18:45:15,824 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-08 18:45:15,851 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-09-08 18:45:15,856 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.675 seconds (JVM running for 2.175)
+2019-09-08 18:45:43,872 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-08 18:45:43,873 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-09-08 18:45:43,878 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2019-09-08 18:45:43,916 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-09-08 18:48:03,253 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'

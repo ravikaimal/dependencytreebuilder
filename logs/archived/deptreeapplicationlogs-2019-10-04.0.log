@@ -1,0 +1,666 @@
+2019-10-04 14:35:29,323 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 14:39:23,042 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 74336 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 14:39:23,047 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 14:39:24,134 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 14:39:24,149 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 14:39:24,157 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 14:39:24,158 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 14:39:24,241 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 14:39:24,242 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1056 ms
+2019-10-04 14:39:24,306 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 14:39:24,473 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 14:39:24,643 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 14:39:24,674 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 14:39:24,679 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 2.242 seconds (JVM running for 2.971)
+2019-10-04 14:39:42,575 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 14:39:42,575 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 14:39:42,582 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 7 ms
+2019-10-04 14:39:42,630 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 14:41:50,674 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 14:41:50,675 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 14:42:30,936 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@2ad31d47
+2019-10-04 14:45:52,512 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 14:46:18,474 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 14:46:18,498 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 14:46:18,548 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 14:53:40,320 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-7] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 14:53:45,238 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 77173 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 14:53:45,243 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 14:53:46,513 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 14:53:46,530 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 14:53:46,544 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 14:53:46,544 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 14:53:46,646 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 14:53:46,646 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1310 ms
+2019-10-04 14:53:46,737 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 14:53:46,973 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 14:53:47,143 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 14:53:47,181 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 14:53:47,186 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 2.564 seconds (JVM running for 3.313)
+2019-10-04 14:54:04,534 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 14:54:04,534 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 14:54:04,539 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2019-10-04 14:54:04,579 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 14:54:10,567 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 14:54:10,568 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 14:54:17,450 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 14:54:18,099 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 14:54:18,115 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 14:54:18,122 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 14:55:20,053 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@3f318b79
+2019-10-04 14:55:20,114 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-7] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:05:53,716 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 79404 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:05:53,721 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:05:54,670 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:05:54,685 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:05:54,695 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:05:54,696 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:05:54,790 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:05:54,791 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 979 ms
+2019-10-04 15:05:54,854 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:05:55,015 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:05:55,161 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:05:55,190 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:05:55,193 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 2.127 seconds (JVM running for 2.672)
+2019-10-04 15:06:01,361 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:06:01,362 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:06:01,368 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2019-10-04 15:06:01,413 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 15:07:17,496 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:07:17,496 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:08:17,795 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] com.dtbuilder.artifacts.Artifact@677a2daf
+2019-10-04 15:09:04,566 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:09:27,537 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:09:27,546 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:09:27,592 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:12:55,527 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:17:13,357 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 81529 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:17:13,361 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:17:14,208 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:17:14,219 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:17:14,226 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:17:14,226 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:17:14,293 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:17:14,293 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 875 ms
+2019-10-04 15:17:14,347 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:17:14,481 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:17:14,627 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:17:14,656 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:17:14,660 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.857 seconds (JVM running for 2.431)
+2019-10-04 15:18:09,132 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:18:09,133 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:18:09,140 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 7 ms
+2019-10-04 15:18:09,191 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 15:18:32,720 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:18:32,720 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:19:07,145 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:19:07,145 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:19:42,911 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:19:42,911 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:23:20,333 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@36a9c068
+2019-10-04 15:23:20,393 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:23:25,065 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 82699 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:23:25,069 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:23:25,962 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:23:25,973 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:23:25,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:23:25,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:23:26,045 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:23:26,045 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 930 ms
+2019-10-04 15:23:26,096 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:23:26,226 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:23:26,368 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:23:26,398 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:23:26,402 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.812 seconds (JVM running for 2.32)
+2019-10-04 15:24:37,388 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:24:37,389 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:24:37,394 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2019-10-04 15:24:37,434 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 15:24:37,442 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:24:37,442 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:24:37,940 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:24:37,940 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:24:37,977 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:24:37,977 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:26:05,662 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@67ac9c6a
+2019-10-04 15:26:05,719 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:42:44,214 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 86177 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:42:44,218 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:42:45,191 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:42:45,206 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:42:45,217 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:42:45,217 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:42:45,312 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:42:45,313 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1044 ms
+2019-10-04 15:42:45,372 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:42:45,537 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:42:45,678 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:42:45,706 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:42:45,710 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 2.022 seconds (JVM running for 2.56)
+2019-10-04 15:42:49,434 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:42:49,434 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:42:49,440 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 6 ms
+2019-10-04 15:42:49,486 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 15:42:49,493 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:42:49,493 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:42:49,894 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:42:49,895 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:42:49,910 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:42:49,911 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:43:29,740 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@3fc4bd58
+2019-10-04 15:43:29,799 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:43:54,668 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 86388 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:43:54,672 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:43:55,601 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:43:55,614 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:43:55,624 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:43:55,624 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:43:55,700 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:43:55,700 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 976 ms
+2019-10-04 15:43:55,757 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:43:55,912 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:43:56,045 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:43:56,074 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:43:56,078 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.877 seconds (JVM running for 2.369)
+2019-10-04 15:44:06,437 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:44:06,438 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:44:06,443 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2019-10-04 15:44:06,486 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 15:44:19,856 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:44:19,857 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:44:29,318 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:44:29,318 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:44:37,489 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:44:37,490 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:45:44,856 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] com.dtbuilder.artifacts.Artifact@6efec91
+2019-10-04 15:45:44,913 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:47:50,940 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 87124 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:47:50,945 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:47:51,834 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:47:51,846 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:47:51,854 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:47:51,855 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:47:51,935 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:47:51,936 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 947 ms
+2019-10-04 15:47:51,987 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:47:52,138 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:47:52,264 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:47:52,294 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:47:52,297 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.826 seconds (JVM running for 2.351)
+2019-10-04 15:47:57,399 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:48:06,535 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 87171 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:48:06,539 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:48:07,377 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:48:07,388 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:48:07,396 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:48:07,396 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:48:07,456 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:48:07,456 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 867 ms
+2019-10-04 15:48:07,501 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:48:07,634 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:48:07,771 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:48:07,800 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:48:07,804 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.751 seconds (JVM running for 2.255)
+2019-10-04 15:48:14,047 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:48:14,048 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:48:14,053 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2019-10-04 15:48:14,095 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 15:48:14,100 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 15:48:14,102 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:48:14,102 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:48:14,608 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 15:48:14,609 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:48:14,609 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:48:14,646 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 15:48:14,647 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:48:14,648 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:48:14,691 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to easymock 
+2019-10-04 15:49:48,212 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@7a7f0978
+2019-10-04 15:49:48,275 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:49:51,560 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 87497 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:49:51,563 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:49:52,360 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:49:52,371 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:49:52,379 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:49:52,379 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:49:52,438 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:49:52,438 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 835 ms
+2019-10-04 15:49:52,486 INFO com.dtbuilder.processor.POMFileProcessor [main] Bean init method called.
+2019-10-04 15:49:52,612 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:49:52,757 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:49:52,787 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:49:52,791 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.698 seconds (JVM running for 2.207)
+2019-10-04 15:49:58,506 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:49:58,506 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:49:58,512 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2019-10-04 15:49:58,557 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 15:50:38,332 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 15:50:38,336 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:50:38,337 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:50:38,414 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:50:38,837 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 15:50:38,837 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:50:38,838 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:50:38,874 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 15:50:38,875 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:50:38,875 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:50:38,913 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to easymock 
+2019-10-04 15:50:40,610 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] com.dtbuilder.artifacts.Artifact@46a5804c
+2019-10-04 15:50:40,631 WARN org.springframework.web.multipart.support.StandardServletMultipartResolver [http-nio-8080-exec-1] Failed to perform cleanup of multipart items
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2803)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2780)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098)
+	at javax.servlet.http.HttpServletRequestWrapper.getParts(HttpServletRequestWrapper.java:356)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:97)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1217)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1075)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-10-04 15:54:04,271 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 88262 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:54:04,274 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:54:05,155 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:54:05,170 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:54:05,178 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:54:05,178 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:54:05,253 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:54:05,254 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 931 ms
+2019-10-04 15:54:05,463 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:54:05,595 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:54:05,625 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:54:05,629 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.818 seconds (JVM running for 2.307)
+2019-10-04 15:54:12,575 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:54:12,576 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:54:12,580 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 4 ms
+2019-10-04 15:54:12,619 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 15:54:24,442 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 15:54:24,446 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:54:24,446 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:54:25,033 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 15:54:25,034 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:54:25,034 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:54:25,080 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 15:54:25,081 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:54:25,081 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:54:25,129 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to easymock 
+2019-10-04 15:55:56,227 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@1d0c3a56
+2019-10-04 15:55:56,286 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:56:44,278 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 88766 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:56:44,282 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:56:52,811 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 88795 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:56:52,814 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:56:53,679 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:56:53,690 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:56:53,697 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:56:53,698 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:56:53,760 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:56:53,760 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 899 ms
+2019-10-04 15:56:53,941 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:56:54,086 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:56:54,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:56:54,118 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.783 seconds (JVM running for 2.278)
+2019-10-04 15:56:56,467 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:56:56,467 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:56:56,474 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2019-10-04 15:56:56,515 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 15:56:56,516 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@251c6d23
+2019-10-04 15:56:56,521 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@f81567c
+2019-10-04 15:56:56,533 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 15:56:56,534 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:56:56,534 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:56:57,178 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@311f05b1
+2019-10-04 15:56:57,186 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 15:56:57,187 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:56:57,187 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:56:57,224 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@4aa5536e
+2019-10-04 15:56:57,233 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 15:56:57,234 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:56:57,234 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:56:57,274 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@6e47fb81
+2019-10-04 15:56:57,283 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to easymock 
+2019-10-04 15:57:02,387 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:57:08,647 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 88844 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:57:08,651 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:57:09,515 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:57:09,528 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:57:09,536 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:57:09,537 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:57:09,604 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:57:09,605 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 907 ms
+2019-10-04 15:57:09,808 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:57:09,932 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:57:09,960 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:57:09,964 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.787 seconds (JVM running for 2.276)
+2019-10-04 15:57:13,043 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:57:13,043 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:57:13,049 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2019-10-04 15:57:13,089 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 15:57:13,090 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@2defaf16
+2019-10-04 15:57:13,095 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@7f5bad25
+2019-10-04 15:57:13,107 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 15:57:13,108 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 15:57:13,109 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:57:13,576 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@52c76e8d
+2019-10-04 15:57:13,584 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 15:57:13,585 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 15:57:13,585 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:57:13,621 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@7644b9bb
+2019-10-04 15:57:13,631 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 15:57:13,632 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 15:57:13,632 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 15:57:13,670 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@191bcbf8
+2019-10-04 15:57:13,678 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to easymock 
+2019-10-04 15:59:22,713 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] com.dtbuilder.artifacts.Artifact@2defaf16
+2019-10-04 15:59:22,778 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:59:48,074 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 89331 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 15:59:48,078 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 15:59:48,871 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 15:59:48,883 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:59:48,890 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 15:59:48,891 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 15:59:48,950 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 15:59:48,950 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 779 ms
+2019-10-04 15:59:49,121 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 15:59:49,257 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 15:59:49,284 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 15:59:49,288 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.699 seconds (JVM running for 2.189)
+2019-10-04 15:59:56,826 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 15:59:56,826 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 15:59:56,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2019-10-04 15:59:56,873 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 15:59:56,874 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@58070b55
+2019-10-04 16:00:43,568 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] com.dtbuilder.artifacts.Artifact@58070b55
+2019-10-04 16:00:43,625 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:01:20,581 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 89610 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:01:20,585 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:01:21,570 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:01:21,584 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:01:21,593 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:01:21,594 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:01:21,678 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:01:21,678 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1049 ms
+2019-10-04 16:01:21,889 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:01:22,019 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:01:22,049 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:01:22,053 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.977 seconds (JVM running for 2.498)
+2019-10-04 16:01:26,381 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:01:26,382 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:01:26,386 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2019-10-04 16:01:26,425 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 16:01:26,426 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@5432fbf4
+2019-10-04 16:01:26,430 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@41a96670
+2019-10-04 16:01:26,441 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 16:01:26,443 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 16:01:26,443 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:01:29,049 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@690692c1
+2019-10-04 16:01:29,058 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 16:01:29,058 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 16:01:29,058 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:01:29,094 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@483aca51
+2019-10-04 16:01:29,103 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 16:01:29,104 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 16:01:29,104 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:01:29,143 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@2d7fa41c
+2019-10-04 16:01:29,152 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to easymock 
+2019-10-04 16:02:25,320 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] com.dtbuilder.artifacts.Artifact@5432fbf4
+2019-10-04 16:02:25,374 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:28:44,324 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 94503 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:28:44,330 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:28:45,376 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:28:45,390 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:28:45,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:28:45,399 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:28:45,481 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:28:45,482 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1059 ms
+2019-10-04 16:28:45,678 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:28:45,838 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:28:45,869 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:28:45,873 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 2.134 seconds (JVM running for 2.726)
+2019-10-04 16:28:57,007 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:28:57,007 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:28:57,014 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 6 ms
+2019-10-04 16:28:57,056 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 16:28:57,057 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@4eae1b7d
+2019-10-04 16:28:57,062 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@7b4578f2
+2019-10-04 16:28:57,075 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: commons-collections to dependency-tree-builder 
+2019-10-04 16:28:57,076 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-collections,commons-collections.wso2,3.2.0.wso2v1]
+2019-10-04 16:28:57,077 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:28:57,485 ERROR com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Not able to retrieve dependency information for the URL [https://repo.maven.apache.org/maven2/commons-collections/wso2/commons-collections/3.2.0.wso2v1/commons-collections-3.2.0.wso2v1.pom]
+2019-10-04 16:29:36,817 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@4eae1b7d
+2019-10-04 16:29:36,874 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:31:07,468 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 94950 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:31:07,474 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:31:08,384 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:31:08,409 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:31:08,434 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:31:08,435 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:31:08,518 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:31:08,518 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 980 ms
+2019-10-04 16:31:08,732 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:31:08,861 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:31:08,891 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:31:08,895 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.938 seconds (JVM running for 2.442)
+2019-10-04 16:31:14,016 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:31:14,017 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:31:14,022 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2019-10-04 16:31:14,064 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 16:31:14,065 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@39893591
+2019-10-04 16:31:14,069 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@335419e3
+2019-10-04 16:31:14,084 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: commons-collections to dependency-tree-builder 
+2019-10-04 16:31:14,086 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-collections,commons-collections,3.2.2]
+2019-10-04 16:31:14,086 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:31:14,471 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@68d7615b
+2019-10-04 16:31:14,480 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to commons-collections 
+2019-10-04 16:31:14,480 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,3.8.1]
+2019-10-04 16:31:14,480 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:31:56,247 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@39893591
+2019-10-04 16:31:56,306 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:37:17,451 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 96083 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:37:17,456 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:37:18,389 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:37:18,403 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:37:18,411 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:37:18,412 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:37:18,483 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:37:18,484 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 976 ms
+2019-10-04 16:37:18,677 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:37:18,830 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:37:18,862 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:37:18,867 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.944 seconds (JVM running for 2.494)
+2019-10-04 16:37:23,312 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:37:23,312 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:37:23,318 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 6 ms
+2019-10-04 16:37:23,360 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 16:37:23,361 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@6a01c111
+2019-10-04 16:37:23,365 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@6e122b9c
+2019-10-04 16:37:23,376 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: commons-collections to dependency-tree-builder 
+2019-10-04 16:37:23,378 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-collections,commons-collections,3.2.2]
+2019-10-04 16:37:23,378 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:37:23,891 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@183b435b
+2019-10-04 16:37:23,899 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to commons-collections 
+2019-10-04 16:37:23,900 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,3.8.1]
+2019-10-04 16:37:23,900 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:38:00,366 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@6a01c111
+2019-10-04 16:38:00,423 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:38:13,383 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 96256 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:38:13,388 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:38:14,342 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:38:14,356 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:38:14,365 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:38:14,365 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:38:14,438 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:38:14,439 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 995 ms
+2019-10-04 16:38:14,669 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:38:14,802 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:38:14,832 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:38:14,836 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.954 seconds (JVM running for 2.457)
+2019-10-04 16:38:19,027 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:38:19,028 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:38:19,033 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2019-10-04 16:38:19,073 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 16:38:19,075 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@3bebdf33
+2019-10-04 16:38:19,079 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@2fb554fe
+2019-10-04 16:38:19,092 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 16:38:19,094 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 16:38:19,094 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:38:19,617 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@2e98855b
+2019-10-04 16:38:19,624 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 16:38:19,625 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 16:38:19,625 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:38:19,662 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@7a0b0b3
+2019-10-04 16:38:19,672 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 16:38:19,673 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 16:38:19,673 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:38:19,712 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@9562bb8
+2019-10-04 16:38:19,721 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to easymock 
+2019-10-04 16:39:45,166 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@3bebdf33
+2019-10-04 16:39:45,227 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:40:45,944 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 96722 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:40:45,948 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:40:46,776 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:40:46,788 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:40:46,796 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:40:46,796 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:40:46,855 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:40:46,856 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 856 ms
+2019-10-04 16:40:47,039 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:40:47,185 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:40:47,215 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:40:47,218 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.765 seconds (JVM running for 2.262)
+2019-10-04 16:40:50,882 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:40:50,882 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:40:50,901 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 19 ms
+2019-10-04 16:40:50,947 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] Entry: handleInputFile
+2019-10-04 16:40:50,948 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@56e92840
+2019-10-04 16:40:50,952 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@470eed70
+2019-10-04 16:40:50,963 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 16:40:50,965 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 16:40:50,965 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:40:50,970 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Final URL https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom
+2019-10-04 16:40:51,332 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@3b4b83b2
+2019-10-04 16:40:51,340 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 16:40:51,340 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 16:40:51,340 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:40:51,340 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Final URL https://repo.maven.apache.org/maven2/junit/junit/4.7/junit-4.7.pom
+2019-10-04 16:40:51,354 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@23159ff5
+2019-10-04 16:40:51,363 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 16:40:51,364 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 16:40:51,364 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:40:51,364 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Final URL https://repo.maven.apache.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2.pom
+2019-10-04 16:40:51,383 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@2775b975
+2019-10-04 16:40:51,391 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-2] ************** Adding dependency: junit to easymock 
+2019-10-04 16:42:00,629 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-2] com.dtbuilder.artifacts.Artifact@56e92840
+2019-10-04 16:42:00,683 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:43:33,300 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 97232 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:43:33,304 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:43:34,166 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:43:34,178 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:43:34,186 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:43:34,186 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:43:34,251 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:43:34,251 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 896 ms
+2019-10-04 16:43:34,439 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:43:34,583 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:43:34,615 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:43:34,619 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.843 seconds (JVM running for 2.342)
+2019-10-04 16:43:38,894 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:43:38,894 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:43:38,900 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2019-10-04 16:43:38,940 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 16:43:38,941 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@afd800
+2019-10-04 16:43:38,946 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@1de8c4f6
+2019-10-04 16:43:38,958 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 16:43:38,960 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 16:43:38,960 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:43:38,966 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Final URL https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom
+2019-10-04 16:43:39,333 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@66230444
+2019-10-04 16:43:39,340 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 16:43:39,341 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 16:43:39,341 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:43:39,341 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Final URL https://repo.maven.apache.org/maven2/junit/junit/4.7/junit-4.7.pom
+2019-10-04 16:43:39,355 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@15c9f4c3
+2019-10-04 16:43:39,365 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 16:43:39,365 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 16:43:39,366 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:43:39,366 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Final URL https://repo.maven.apache.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2.pom
+2019-10-04 16:43:39,385 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@61275bc6
+2019-10-04 16:43:39,394 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to easymock 
+2019-10-04 16:45:12,818 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] com.dtbuilder.artifacts.Artifact@afd800
+2019-10-04 16:45:12,940 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:45:15,793 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderApplication on US5036NB with PID 97564 (/Users/kaimalrk/Learn/github/dependencytreebuilder/target/classes started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2019-10-04 16:45:15,796 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 16:45:16,710 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-10-04 16:45:16,722 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:45:16,730 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-10-04 16:45:16,730 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-04 16:45:16,795 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-10-04 16:45:16,795 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 961 ms
+2019-10-04 16:45:16,975 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-04 16:45:17,111 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-04 16:45:17,139 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/deptree'
+2019-10-04 16:45:17,143 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderApplication in 1.786 seconds (JVM running for 2.292)
+2019-10-04 16:45:21,171 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-04 16:45:21,171 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-04 16:45:21,176 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2019-10-04 16:45:21,221 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] Entry: handleInputFile
+2019-10-04 16:45:21,223 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@45cb55e1
+2019-10-04 16:45:21,227 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@52afd7de
+2019-10-04 16:45:21,239 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: commons-lang3 to dependency-tree-builder 
+2019-10-04 16:45:21,240 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking artifact [commons-lang3,org.apache.commons,3.0]
+2019-10-04 16:45:21,240 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:45:21,246 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-1] Final URL https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom
+2019-10-04 16:45:21,608 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@77b0f655
+2019-10-04 16:45:21,616 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to commons-lang3 
+2019-10-04 16:45:21,617 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking artifact [junit,junit,4.7]
+2019-10-04 16:45:21,617 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:45:21,617 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-2] Final URL https://repo.maven.apache.org/maven2/junit/junit/4.7/junit-4.7.pom
+2019-10-04 16:45:21,632 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@d5e9e0e
+2019-10-04 16:45:21,642 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: easymock to commons-lang3 
+2019-10-04 16:45:21,642 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking artifact [easymock,org.easymock,2.5.2]
+2019-10-04 16:45:21,642 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Checking repository [Central Repository,https://repo.maven.apache.org/maven2]
+2019-10-04 16:45:21,643 INFO com.dtbuilder.processor.DependencyProcessor$RemotePOMReader [pool-1-thread-3] Final URL https://repo.maven.apache.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2.pom
+2019-10-04 16:45:21,658 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ---------------Created new artifactcom.dtbuilder.artifacts.Artifact@1f3e2cf3
+2019-10-04 16:45:21,666 INFO com.dtbuilder.artifacts.Artifact [http-nio-8080-exec-1] ************** Adding dependency: junit to easymock 
+2019-10-04 16:45:46,718 INFO com.dtbuilder.controller.DependencyBuilderController [http-nio-8080-exec-1] {"groupId":"dependency-tree-builder","artifactId":"dependency-tree-builder","version":"1.0-SNAPSHOT","dependencies":[{"groupId":"org.apache.commons","artifactId":"commons-lang3","version":"3.0","dependencies":[{"groupId":"junit","artifactId":"junit","version":"4.7","dependencies":null},{"groupId":"org.easymock","artifactId":"easymock","version":"2.5.2","dependencies":[{"groupId":"junit","artifactId":"junit","version":"4.7","dependencies":null}]}]}]}
+2019-10-04 16:52:52,440 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'

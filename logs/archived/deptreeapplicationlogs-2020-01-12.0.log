@@ -1,0 +1,13 @@
+2020-01-12 22:12:28,778 INFO org.springframework.boot.StartupInfoLogger [main] Starting DependencyBuilderControllerTest on US5036NB with PID 68494 (started by kaimalrk in /Users/kaimalrk/Learn/github/dependencytreebuilder)
+2020-01-12 22:12:28,782 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-12 22:12:29,251 INFO org.springframework.boot.StartupInfoLogger [main] Started DependencyBuilderControllerTest in 1.095 seconds (JVM running for 2.105)
+2020-01-12 22:12:29,525 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-01-12 22:12:29,525 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-01-12 22:12:29,722 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 197 ms
+2020-01-12 22:12:29,727 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-01-12 22:12:29,728 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-01-12 22:12:29,735 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 7 ms
+2020-01-12 22:12:42,807 WARN org.springframework.web.servlet.DispatcherServlet [main] No mapping for POST /upload
+2020-01-12 22:12:42,814 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-01-12 22:12:42,814 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-01-12 22:12:42,825 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 10 ms

@@ -1,0 +1,1 @@
+2019-10-09 12:12:48,789 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
