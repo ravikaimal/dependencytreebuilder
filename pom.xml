@@ -10,7 +10,7 @@
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <spring.version>5.1.7.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <spring.boot.version>2.1.7.RELEASE</spring.boot.version>
     </properties>
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
